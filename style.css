@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    background: #0DBF9B;
+}
+.menubar {
+    width: 1220px;
+    margin: auto;
+}
+.logo  {
+    display: inline-block;
+    /* color: white; */
+    width: 30%;
+    
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.menu {
+    display: inline-block;
+    width: 69%;
+    text-align: right;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 25px 10px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.container_landing {
+    background-image: url('./img/header-bg01.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 504px;
+}
+.landing {
+    color: white;
+    text-align: center;
+    height: 100%;
+    padding-top: 200px;
+}
+
+.landing h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.landing p {
+    font-size: 19px;
+    padding-bottom: 35px;
+}
+.landing a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+
+.container_services {
+    margin-top: 75px;
+    /* text-align: center; */
+}
+.heading {
+    text-align: center;
+    /* font-size: 30px; */
+}
+.heading h3 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.heading p{
+    padding-bottom: 80px;
+}
+.service_box {
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1px 74px;
+}
+
+.service_box i {
+    color: #0DBF9B;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.service_box h3 {
+    font-size: 22px;
+    padding-bottom: 13px;
+}
+.breakline {
+    height: 1px;
+    background-color: #0DBF9B;
+    margin: 85px 0;
+}
+
+.aboutus {
+    text-align: center;
+}
+
+.aboutus h2 {
+    font-size: 45px;
+    padding-bottom: 13px;
+}
+.aboutus p{
+    /* text-align: center; */
+    margin-bottom: 55px;
+} 
+.aboutusimg {
+    display: inline-block;
+    width: 50%;
+    text-align:center;
+}
+.aboutusimg img{
+    width: 75%;
+}
+.aboutusdesc {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.desc {
+    padding: 10px 75px 10px 0px;
+}
+.desc h3 {
+    font-size: 22px;
+    padding-bottom: 7px;
+}
+.container_contactus {
+    margin-top: 50px;
+    background: #E8E8E8;
+    padding: 65px 0;
+}
+.containerText {
+    text-align: center;
+    padding-bottom: 80px;
+}
+.containerText h3 {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.contact2 {
+    vertical-align: top;
+}
+.contact{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+.contact i{
+    color: #0DBF9B;
+}
+.container_footer {
+    background: #0DBF9B;
+    padding: 25px;
+    text-align: center;
+}
+.logos i {
+    color: white;
+    padding-left: 13px;
+}
+.footerend {
+    text-align: center;
+    background: #202020;
+    color: #807a7a;
+    padding: 20px 0;
+}
